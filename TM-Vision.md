@@ -1,4 +1,4 @@
-## WHat is Template matching?
+## What is Template matching?
 
 ## TM Vision:
 **Use and optimize Template Matching to better the particle picking process in CryoET**
