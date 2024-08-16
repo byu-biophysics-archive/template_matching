@@ -1,7 +1,7 @@
 ## WHat is Template matching?
 
 ## TM Vision:
-**Use and optimize Template Matching to better the particle picking process**
+**Use and optimize Template Matching to better the particle picking process in CryoET**
 #### Overall Goal
 **Our greater Template Matching vision is to:**
 - Learn how to do Template Matching
