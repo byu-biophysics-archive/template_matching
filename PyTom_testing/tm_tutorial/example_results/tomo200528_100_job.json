@@ -1,0 +1,80 @@
+{
+    "mask": "/home/jblaser2/groups/fslg_imagseg/nobackup/archive/TM/pytom/pytom_tutorial/templates/mask.mrc",
+    "mask_is_spherical": true,
+    "output_dir": "/home/jblaser2/groups/fslg_imagseg/nobackup/archive/TM/pytom/pytom_tutorial/results_80S",
+    "tomogram": "/home/jblaser2/groups/fslg_imagseg/nobackup/archive/TM/pytom/pytom_tutorial/dataset/tomo200528_100.mrc",
+    "template": "/home/jblaser2/groups/fslg_imagseg/nobackup/archive/TM/pytom/pytom_tutorial/templates/80S.mrc",
+    "tomo_id": "tomo200528_100",
+    "tomo_shape": [
+        462,
+        478,
+        250
+    ],
+    "template_shape": [
+        60,
+        60,
+        60
+    ],
+    "voxel_size": 13.79,
+    "tomogram_mask": null,
+    "whole_start": null,
+    "sub_start": [
+        0,
+        0,
+        0
+    ],
+    "sub_step": [
+        462,
+        478,
+        250
+    ],
+    "start_slice": 0,
+    "steps_slice": 1,
+    "rotational_symmetry": 1,
+    "particle_diameter": 300.0,
+    "rotation_file": 7.639437268410976,
+    "n_rotations": 36864,
+    "tilt_angles": [
+        48.0,
+        50.0
+    ],
+    "tilt_weighting": false,
+    "low_pass": 40.0,
+    "high_pass": null,
+    "dose_accumulation": null,
+    "ctf_data": [
+        {
+            "defocus": 3e-06,
+            "amplitude_contrast": 0.08,
+            "voltage": 200000.0,
+            "spherical_aberration": 0.0027,
+            "flip_phase": true,
+            "phase_shift_deg": 0.0
+        }
+    ],
+    "whiten_spectrum": false,
+    "whitening_filter": "/home/jblaser2/groups/fslg_imagseg/nobackup/archive/TM/pytom/pytom_tutorial/results_80S/tomo200528_100_whitening_filter.npy",
+    "random_phase_correction": false,
+    "rng_seed": 13260637834783669997,
+    "job_key": "0",
+    "leader": null,
+    "job_stats": {
+        "search_space": 2035224576000,
+        "variance": 0.0007617363792526656,
+        "std": 0.02759957208459337
+    },
+    "log_level": "INFO",
+    "pytom_tm_version_number": "0.7.1",
+    "search_x": [
+        0,
+        462
+    ],
+    "search_y": [
+        0,
+        478
+    ],
+    "search_z": [
+        0,
+        250
+    ]
+}

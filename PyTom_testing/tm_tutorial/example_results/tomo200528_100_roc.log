@@ -1,0 +1,13 @@
+
+fit of the bimodal model:
+	estimated		sigma
+sigma_1	0.016		0.000
+mu_2	0.256		0.003
+sigma_2	0.046		0.004
+A_2	20.994		1.133
+
+
+ - estimation total number of true positives: 169.3
+ - optimal correlation coefficient threshold is 0.197
+(' - this threshold approximately selects 151.9 particles',)
+Rectangle Under Curve (RUC):  0.8907943655541454

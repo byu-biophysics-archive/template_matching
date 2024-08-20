@@ -1,3 +1,9 @@
 .DS_Store
 .vscode/
 __pycache__/
+PyTom_testing/tm_tutorial/dataset/tomo200528_100.mrc
+PyTom_testing/tm_tutorial/templates/emd_2938.map
+PyTom_testing/tm_tutorial/example_results/tomo200528_100_scores.mrc
+PyTom_testing/tm_tutorial/dataset/tomo200528_100.mrc
+PyTom_testing/tm_tutorial/templates/emd_2938.map
+PyTom_testing/tm_tutorial/example_results/tomo200528_100_angles.mrc
