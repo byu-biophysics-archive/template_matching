@@ -13,8 +13,12 @@ Now
 ```bash
 vim ./etc/conda/activate.d/path.sh
 ```
-and add the path to the scripts directory located in this repository.
-
+Copy and paste this into your new path.sh file, make sure to update the tmdir path
+```bash
+#!/bin/bash
+tmdir=path/to/your/clone/of/this/repo
+export PATH="$tmdir/template_matching/PyTom_testing/scripts:$PATH"
+```
 Run:
 ```bash
 source ./etc/conda/activate.d/path.sh
