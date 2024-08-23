@@ -15,7 +15,7 @@
 - [Here](https://sbc-utrecht.github.io/pytom-match-pick/tutorials/Tutorial/) is the tutorial from pytom
 - There are more instructions in the [tm_tutorial](https://github.com/byu-biophysics/template_matching/tree/main/PyTom_testing/tm_tutorial) directory
 
-***If you're still reading here than you've already completed the tutorial***
+\*\****If you're still reading here than you've already completed the tutorial***
 - You should now know that pytom-match-pick has 5 basic functions:
     - pytom_create_template.py
     - pytom_create_mask.py
