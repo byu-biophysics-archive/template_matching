@@ -3,10 +3,13 @@ This tutorial will work best when running on GPUs. If running on CPU you must ed
 - Take a brief look through [this](https://sbc-utrecht.github.io/pytom-match-pick/tutorials/Tutorial/#running-template-matching_1) website
   - We have conveniently already uploaded the necessary tutorial files to this folder
   - We have also written scripts to run each individual function which can be found under the scripts folder
+  
 - Be sure to activate your conda environment by running `conda activate pytom_tm`
   - Go through each script in order, examine the different parameters and options and what they each mean
   - You can even learn more about each function by running `pytom_match_template --help` etc.
-  - Run each script by simply typing `bash create_template.sh`, etc. in the terminal within the scripts dir
+  - Run each script on GPUs by simply typing `salloc --time 0:10:00 --nodes 1 --ntasks 2 --gpus 1 --mem 10g`
+followed by `bash create_template.sh`, etc. in the terminal within the scripts dir
+    
 - You will see that each of the scripts run a different function and create a different set of output files
   - You should be able to compare these output files with those located in the example_results directory
     - Two files of note are the scores.mrc file which is generated from the match_template function and the roc.svg file which is generated from the estimate_roc function
