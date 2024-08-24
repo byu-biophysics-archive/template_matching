@@ -22,5 +22,23 @@
     - pytom_match_template.py
     - pytom_estimate_roc.py
     - pytom_extract_candidates.py
+### Overview of functions
+- Creating the Template and Mask
+    - The create template and create mask functions are used to create the template and mask of a certain structure of a certain species.
+    - These are made by feeding in an electron density map of the structure and understanding the general shape of the structure
 
+- Template Matching
+  - The match template function performs the template matching.
+  - While the previous functions simply create the template and mask, this function uses those two files to find the specific structure within the 3D tomogram
+  - Thus, a single template and mask can be used to perform template matching on any number of tomograms of the species from which it comes
+  - Template matching is done through a matching algorithm which typically works like so:
+  - **Matching Algorithm**
+    - Feature Extraction: Extract features from both the template and the volume. These features could include surface details, edges, or keypoints.
+    - Matching and Transformation: The matching algorithm searches for the template within the volume by applying various transformations, such as translation, rotation, and scaling, to the template. Techniques include:
+    - Cross-Correlation: Compute the correlation between the template and various regions of the volume to find the best match.
+    - Similarity Measures: Use measures like Mutual Information or Sum of Squared Differences to assess similarity between the template and the volume.
+    - Optimization: Use optimization algorithms to refine the position and orientation of the template to achieve the best match.
+
+- Estimate Roc and Extract Candidates
+  - These functions somehow extract important information about the accuracy of the template matching and display visuals 
 
